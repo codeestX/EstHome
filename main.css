@@ -16,7 +16,9 @@ a { color: rgb(255, 255, 255); text-decoration: none; line-height: inherit; }
 a:hover { color: rgb(255, 255, 255); }
 a:focus { color: rgb(255, 255, 255); outline: none; }
 p a, p a:visited { line-height: inherit; }
-.bg-wagara { position: absolute; top: 50%; height: 104px; margin-top: -52px; width: 100%; margin-left: auto; margin-right: auto; }
+.head-img { display:block;text-align:center;width:auto;max-width:20%;max-height:20%;margin-right:auto;margin-left:auto;transition:transform 1s;animation:fade-in-down .6s;animation-delay:.2s;border-radius:100%; margin-top:8vmin;}
+.head-img:hover { transform:rotate(-360deg); }
+.bg-wagara { position: absolute; top: 55%; height: 104px; margin-top: -52px; width: 100%; margin-left: auto; margin-right: auto; }
 .angle-b { display: block; width: 0px; height: 0px; border-style: solid; border-width: 32px 17px 0px; }
 .angle-b.color-all { border-color: rgb(254, 68, 68) transparent transparent; }
 .angle-b.color-see { border-color: rgb(244, 115, 157) transparent transparent; }
